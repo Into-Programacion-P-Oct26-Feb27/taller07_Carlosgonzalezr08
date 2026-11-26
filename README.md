@@ -48,8 +48,23 @@ Promedio de estaturas: 1.87
 90
 110
 ```
+
 Para imprimir el reporte (usar una cadena de acumulación):
 
+Analice la lógica propuesta
+
+| Posición (n) | Operación | Resultado | Incremento |
+|---:|---|---:|---:|
+| 1 | 1 × 2 | 2 | — |
+| 2 | 2 × 3 | 6 | 4 |
+| 3 | 3 × 4 | 12 | 6 |
+| 4 | 4 × 5 | 20 | 8 |
+| 5 | 5 × 6 | 30 | 10 |
+| 6 | 6 × 7 | 42 | 12 |
+| 7 | 7 × 8 | 56 | 14 |
+| 8 | 8 × 9 | 72 | 16 |
+| 9 | 9 × 10 | 90 | 18 |
+| 10 | 10 × 11 | 110 | 20 |
 
 ### Problema03 (use while)
 * Generar  e imprimir la siguiente serie:
@@ -64,6 +79,16 @@ Para imprimir el reporte (usar una cadena de acumulación):
 ```
 Para imprimir el reporte (usar una cadena de acumulación):
 
+Analice la lógica
+| Posición (n) | Operación | Resultado | Incremento |
+|---:|---:|---:|---:|
+| 1 | 1 × 1 + 1 | 2 | — |
+| 2 | 2 × 2 + 1 | 5 | 3 |
+| 3 | 3 × 3 + 1 | 10 | 5 |
+| 4 | 4 × 4 + 1 | 17 | 7 |
+| 5 | 5 × 5 + 1 | 26 | 9 |
+| 6 | 6 × 6 + 1 | 37 | 11 |
+
 ### Problema04  (use while)
 * Generar, imprimir  y obtenga el resultado de la serie:
 
@@ -73,3 +98,15 @@ Para imprimir el reporte (usar una cadena de acumulación):
 
 ```
 Para imprimir el reporte (usar una cadena de acumulación):
+
+Analice la lógica
+| Posición | Numerador | Denominador | Signo | Término |
+|---:|---:|---:|:---:|---:|
+| 1 | 1 | 1 | + | 1/1 |
+| 2 | 1 | 3 | − | −1/3 |
+| 3 | 1 | 5 | + | 1/5 |
+| 4 | 1 | 7 | − | −1/7 |
+| 5 | 1 | 9 | + | 1/9 |
+| 6 | 1 | 11 | − | −1/11 |
+| 7 | 1 | 13 | + | 1/13 |
+| 8 | 1 | 15 | − | −1/15 |
